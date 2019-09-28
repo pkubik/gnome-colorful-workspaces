@@ -53,3 +53,17 @@
     border-top: solid rgba(255, 94, 0, 1.0) 2px;
     box-shadow: inset 0px 2px 4px 1px rgba(255, 94, 0, 0.512);
 }
+
+.workspace-indicator-5 {
+    font-weight: bold;
+    background-color: rgba(165, 43, 236, 0.512);
+    border-radius: 0px 0px 3px 3px;
+    margin: 6px;
+    margin-top: 2px;
+    box-shadow: 0px 2px 4px 1px rgba(165, 43, 236, 0.512);
+}
+
+.upper-glow-5 {
+    border-top: solid rgba(165, 43, 236, 1.0) 2px;
+    box-shadow: inset 0px 2px 4px 1px rgba(165, 43, 236, 0.512);
+}

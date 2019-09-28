@@ -21,8 +21,8 @@ class Extension {
     _onWorkspaceSwitched() {
         let workspaceIndex = global.workspace_manager.get_active_workspace_index();
         this._label.set_text("   " + (workspaceIndex + 1) + "   ");
-        this._label.style_class = 'workspace-indicator-' + (workspaceIndex % 4 + 1);
-        Main.panel.style_class = 'upper-glow-' + (workspaceIndex % 4 + 1);
+        this._label.style_class = 'workspace-indicator-' + (workspaceIndex % 5 + 1);
+        Main.panel.style_class = 'upper-glow-' + (workspaceIndex % 5 + 1);
     }
 
     enable() {
