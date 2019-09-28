@@ -1,6 +1,6 @@
 {
-    "name": "Personal Config",
-    "description": "Personal config for Gnome",
-    "uuid": "config@p.kubik.hotmail.com",
+    "name": "Colorful Workspaces",
+    "description": "Colorful workspace indicator for Gnome Shell",
+    "uuid": "colorful-workspaces@p.kubik.hotmail.com",
     "shell-version": ["3.34.0"]
 }
