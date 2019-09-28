@@ -1,0 +1,6 @@
+{
+    "name": "Personal Config",
+    "description": "Personal config for Gnome",
+    "uuid": "config@p.kubik.hotmail.com",
+    "shell-version": ["3.34.0"]
+}
