@@ -1,23 +1,55 @@
-
-.helloworld-label {
-    font-size: 36px;
+.workspace-indicator-1 {
     font-weight: bold;
-    color: #ffffff;
-    background-color: rgba(10,10,10,0.7);
-    border-radius: 5px;
-    padding: .5em;
-}
-
-.workspace-indicator {
-    font-weight: bold;
-    background-color: rgba(90, 245, 19, 0.7);
+    background-color: rgba(18, 91, 201, 0.5);
     border-radius: 0px 0px 3px 3px;
     margin: 6px;
     margin-top: 2px;
-    box-shadow: 0px 2px 8px 2px rgba(90, 225, 19, 0.8);
+    box-shadow: 0px 2px 4px 1px rgba(18, 91, 201, 0.5);
 }
 
-#panel {
-    border-top: solid rgba(90, 245, 19, 0.7) 2px;
-    box-shadow: inset 0px 2px 8px 2px rgba(90, 225, 19, 0.4);
+.upper-glow-1 {
+    border-top: solid rgba(18, 91, 201, 1.0) 2px;
+    box-shadow: inset 0px 2px 4px 1px rgba(18, 91, 201, 0.5);
+}
+
+.workspace-indicator-2 {
+    font-weight: bold;
+    background-color: rgba(192, 0, 0, 0.5);
+    border-radius: 0px 0px 3px 3px;
+    margin: 6px;
+    margin-top: 2px;
+    box-shadow: 0px 2px 4px 1px rgba(192, 0, 0, 0.5);
+}
+
+.upper-glow-2 {
+    border-top: solid rgba(192, 0, 0, 1.0) 2px;
+    box-shadow: inset 0px 2px 4px 1px rgba(192, 0, 0, 0.5);
+}
+
+.workspace-indicator-3 {
+    font-weight: bold;
+    background-color: rgba(105, 231, 21, 0.5);
+    border-radius: 0px 0px 3px 3px;
+    margin: 6px;
+    margin-top: 2px;
+    box-shadow: 0px 2px 4px 1px rgba(105, 231, 21, 0.5);
+}
+
+.upper-glow-3 {
+    border-top: solid rgba(105, 231, 21, 1.0) 2px;
+    box-shadow: inset 0px 2px 4px 1px rgba(105, 231, 21, 0.5);
+}
+
+.workspace-indicator-4 {
+    font-weight: bold;
+    background-color: rgba(255, 94, 0, 0.512);
+    border-radius: 0px 0px 3px 3px;
+    margin: 6px;
+    margin-top: 2px;
+    box-shadow: 0px 2px 4px 1px rgba(255, 94, 0, 0.512);
+}
+
+.upper-glow-4 {
+    border-top: solid rgba(255, 94, 0, 1.0) 2px;
+    box-shadow: inset 0px 2px 4px 1px rgba(255, 94, 0, 0.512);
 }
