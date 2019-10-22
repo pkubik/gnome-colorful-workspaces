@@ -24,7 +24,8 @@ class Extension {
 
     enable() {
         Main.panel._rightBox.insert_child_at_index(this._button, 0);
-        Main.panel.style_class = 'upper-glow-1';
+
+        this._onWorkspaceSwitched();
 
         this._workspaceSwitchedSignal = 
             global.workspace_manager.connect_after('workspace-switched',
